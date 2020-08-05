@@ -6,13 +6,13 @@ public class Environment {
     }
 
     public static String getEnvironment() {
-        return System.getProperty("env", EnvironmentInterface.HOM);
+        return System.getProperty("env", EnvironmentInterface.TST);
     }
 
     public interface EnvironmentInterface {
 
         String DEV = "dev";
-        String HOM = "hom";
+        String TST = "tst";
 
     }
 
