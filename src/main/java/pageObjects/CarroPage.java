@@ -25,7 +25,7 @@ public class CarroPage {
     @FindBy(id = "save")
     private WebElement gravar;
 
-    @FindBy(css = ".valor")
+    @FindBy(xpath = "//*[@id=\"root\"]/div/div/div[1]")
     private WebElement mensagemSucesso;
 
 
