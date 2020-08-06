@@ -28,6 +28,11 @@ public class CarroPage {
     @FindBy(xpath = "//*[@id=\"root\"]/div/div/div[1]")
     private WebElement mensagemSucesso;
 
+    @FindBy(id = "delete")
+    private WebElement deletar;
+
+    @FindBy(id = "edit")
+    private WebElement atualizar;
 
     public CarroPage inserirMarca(String value){
         marca.sendKeys(value);
@@ -44,6 +49,15 @@ public class CarroPage {
         return this;
     }
 
+    public CarroPage deletar(){
+        deletar.click();
+        return this;
+    }
+
+    public CarroPage atualizar(){
+        atualizar.click();
+        return this;
+    }
     public String resultadoInclusaoCarro(){
         return aguardarMensagem(mensagemSucesso).getAttribute("innerText");
     }
