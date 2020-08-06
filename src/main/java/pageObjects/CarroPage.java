@@ -45,7 +45,7 @@ public class CarroPage {
     }
 
     public String resultadoInclusaoCarro(){
-        return aguardarMensagem(mensagemSucesso).getText();
+        return aguardarMensagem(mensagemSucesso).getAttribute("innerText");
     }
 
     private WebElement aguardarMensagem(WebElement webElement) {

@@ -4,7 +4,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.CarroPage;
 import utils.BaseTest;
-
 import static utils.StaticValues.ADD_SUCCESS;
 
 public class GravarNovoCarroTest extends BaseTest {
