@@ -79,6 +79,12 @@
             <version>${bonigarcia.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.lusa</groupId>
+            <artifactId>api-carros-it-client</artifactId>
+            <version>1.0</version>
+        </dependency>
+
     </dependencies>
 
 
