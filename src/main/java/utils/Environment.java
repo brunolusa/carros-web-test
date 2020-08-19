@@ -11,7 +11,7 @@ public class Environment {
 
     public interface EnvironmentInterface {
 
-        String DEV = "dev";
+        String HOM = "hom";
         String TST = "tst";
 
     }
